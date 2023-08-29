@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans',
+     'Lucida Sans Regular',
+      'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    background: url("finest.jpg");
+    background-size:25% ;
+}
+
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: maroon;
+    opacity: .8;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+ #text {
+    height: 30px;
+    font-size: 10px;
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: maroon;
+    opacity: 0.4;
+
+}
+
+
+ #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: maroon;
+    color: yellow;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: orangered;
+    font-size: 70px;
+    font-family: cursive;
+}
